@@ -1,0 +1,23 @@
+﻿*{ box-sizing: border-box; }
+body{ margin:0; width:100%; display: flex; justify-content: left; }
+
+.col-2{ flex: none; width:25%;}
+.col-6{ flex: none; width:50%; text-align: center;}
+.article{ border-radius: 5px; 
+    border: 0.5px solid rgb(21, 55, 21);
+    padding: 5px; margin: 10px 0;
+}
+
+p{ font-size: 18px; }
+
+#btn{
+    font-weight: bold; font-size: 1.1em;
+    border-radius: 5px; margin:10px; padding: 5px;
+}
+#title{
+    width: 50%; height: 30px;
+}
+#content{
+    width: 50%; height: 60px;
+    font-size: 16px;
+}
